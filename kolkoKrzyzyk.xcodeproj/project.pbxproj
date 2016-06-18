@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EDC20E1D15A4A10084EE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC20D1D15A4A10084EE75 /* AppDelegate.swift */; };
+		42EDC2101D15A4A10084EE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC20F1D15A4A10084EE75 /* ViewController.swift */; };
+		42EDC2131D15A4A10084EE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDC2111D15A4A10084EE75 /* Main.storyboard */; };
+		42EDC2151D15A4A10084EE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EDC2141D15A4A10084EE75 /* Assets.xcassets */; };
+		42EDC2181D15A4A10084EE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDC2161D15A4A10084EE75 /* LaunchScreen.storyboard */; };
+		42EDC2231D15A4A10084EE75 /* kolkoKrzyzykTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC2221D15A4A10084EE75 /* kolkoKrzyzykTests.swift */; };
+		42EDC22E1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC22D1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EDC21F1D15A4A10084EE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EDC2021D15A4A10084EE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EDC2091D15A4A10084EE75;
+			remoteInfo = kolkoKrzyzyk;
+		};
+		42EDC22A1D15A4A10084EE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EDC2021D15A4A10084EE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EDC2091D15A4A10084EE75;
+			remoteInfo = kolkoKrzyzyk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EDC20A1D15A4A10084EE75 /* kolkoKrzyzyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kolkoKrzyzyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDC20D1D15A4A10084EE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EDC20F1D15A4A10084EE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EDC2121D15A4A10084EE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EDC2141D15A4A10084EE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EDC2171D15A4A10084EE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EDC2191D15A4A10084EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDC21E1D15A4A10084EE75 /* kolkoKrzyzykTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kolkoKrzyzykTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDC2221D15A4A10084EE75 /* kolkoKrzyzykTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolkoKrzyzykTests.swift; sourceTree = "<group>"; };
+		42EDC2241D15A4A10084EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDC2291D15A4A10084EE75 /* kolkoKrzyzykUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kolkoKrzyzykUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EDC22D1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolkoKrzyzykUITests.swift; sourceTree = "<group>"; };
+		42EDC22F1D15A4A10084EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EDC2071D15A4A10084EE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC21B1D15A4A10084EE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC2261D15A4A10084EE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EDC2011D15A4A00084EE75 = {
+			isa = PBXGroup;
+			children = (
+				42EDC20C1D15A4A10084EE75 /* kolkoKrzyzyk */,
+				42EDC2211D15A4A10084EE75 /* kolkoKrzyzykTests */,
+				42EDC22C1D15A4A10084EE75 /* kolkoKrzyzykUITests */,
+				42EDC20B1D15A4A10084EE75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EDC20B1D15A4A10084EE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EDC20A1D15A4A10084EE75 /* kolkoKrzyzyk.app */,
+				42EDC21E1D15A4A10084EE75 /* kolkoKrzyzykTests.xctest */,
+				42EDC2291D15A4A10084EE75 /* kolkoKrzyzykUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EDC20C1D15A4A10084EE75 /* kolkoKrzyzyk */ = {
+			isa = PBXGroup;
+			children = (
+				42EDC20D1D15A4A10084EE75 /* AppDelegate.swift */,
+				42EDC20F1D15A4A10084EE75 /* ViewController.swift */,
+				42EDC2111D15A4A10084EE75 /* Main.storyboard */,
+				42EDC2141D15A4A10084EE75 /* Assets.xcassets */,
+				42EDC2161D15A4A10084EE75 /* LaunchScreen.storyboard */,
+				42EDC2191D15A4A10084EE75 /* Info.plist */,
+			);
+			path = kolkoKrzyzyk;
+			sourceTree = "<group>";
+		};
+		42EDC2211D15A4A10084EE75 /* kolkoKrzyzykTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EDC2221D15A4A10084EE75 /* kolkoKrzyzykTests.swift */,
+				42EDC2241D15A4A10084EE75 /* Info.plist */,
+			);
+			path = kolkoKrzyzykTests;
+			sourceTree = "<group>";
+		};
+		42EDC22C1D15A4A10084EE75 /* kolkoKrzyzykUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EDC22D1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift */,
+				42EDC22F1D15A4A10084EE75 /* Info.plist */,
+			);
+			path = kolkoKrzyzykUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EDC2091D15A4A10084EE75 /* kolkoKrzyzyk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDC2321D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzyk" */;
+			buildPhases = (
+				42EDC2061D15A4A10084EE75 /* Sources */,
+				42EDC2071D15A4A10084EE75 /* Frameworks */,
+				42EDC2081D15A4A10084EE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kolkoKrzyzyk;
+			productName = kolkoKrzyzyk;
+			productReference = 42EDC20A1D15A4A10084EE75 /* kolkoKrzyzyk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EDC21D1D15A4A10084EE75 /* kolkoKrzyzykTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDC2351D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzykTests" */;
+			buildPhases = (
+				42EDC21A1D15A4A10084EE75 /* Sources */,
+				42EDC21B1D15A4A10084EE75 /* Frameworks */,
+				42EDC21C1D15A4A10084EE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EDC2201D15A4A10084EE75 /* PBXTargetDependency */,
+			);
+			name = kolkoKrzyzykTests;
+			productName = kolkoKrzyzykTests;
+			productReference = 42EDC21E1D15A4A10084EE75 /* kolkoKrzyzykTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EDC2281D15A4A10084EE75 /* kolkoKrzyzykUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EDC2381D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzykUITests" */;
+			buildPhases = (
+				42EDC2251D15A4A10084EE75 /* Sources */,
+				42EDC2261D15A4A10084EE75 /* Frameworks */,
+				42EDC2271D15A4A10084EE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EDC22B1D15A4A10084EE75 /* PBXTargetDependency */,
+			);
+			name = kolkoKrzyzykUITests;
+			productName = kolkoKrzyzykUITests;
+			productReference = 42EDC2291D15A4A10084EE75 /* kolkoKrzyzykUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EDC2021D15A4A10084EE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kamil Wójcik";
+				TargetAttributes = {
+					42EDC2091D15A4A10084EE75 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					42EDC21D1D15A4A10084EE75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42EDC2091D15A4A10084EE75;
+					};
+					42EDC2281D15A4A10084EE75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42EDC2091D15A4A10084EE75;
+					};
+				};
+			};
+			buildConfigurationList = 42EDC2051D15A4A10084EE75 /* Build configuration list for PBXProject "kolkoKrzyzyk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EDC2011D15A4A00084EE75;
+			productRefGroup = 42EDC20B1D15A4A10084EE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EDC2091D15A4A10084EE75 /* kolkoKrzyzyk */,
+				42EDC21D1D15A4A10084EE75 /* kolkoKrzyzykTests */,
+				42EDC2281D15A4A10084EE75 /* kolkoKrzyzykUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EDC2081D15A4A10084EE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDC2181D15A4A10084EE75 /* LaunchScreen.storyboard in Resources */,
+				42EDC2151D15A4A10084EE75 /* Assets.xcassets in Resources */,
+				42EDC2131D15A4A10084EE75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC21C1D15A4A10084EE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC2271D15A4A10084EE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EDC2061D15A4A10084EE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDC2101D15A4A10084EE75 /* ViewController.swift in Sources */,
+				42EDC20E1D15A4A10084EE75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC21A1D15A4A10084EE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDC2231D15A4A10084EE75 /* kolkoKrzyzykTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDC2251D15A4A10084EE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDC22E1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EDC2201D15A4A10084EE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EDC2091D15A4A10084EE75 /* kolkoKrzyzyk */;
+			targetProxy = 42EDC21F1D15A4A10084EE75 /* PBXContainerItemProxy */;
+		};
+		42EDC22B1D15A4A10084EE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EDC2091D15A4A10084EE75 /* kolkoKrzyzyk */;
+			targetProxy = 42EDC22A1D15A4A10084EE75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EDC2111D15A4A10084EE75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EDC2121D15A4A10084EE75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EDC2161D15A4A10084EE75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EDC2171D15A4A10084EE75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EDC2301D15A4A20084EE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EDC2311D15A4A20084EE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EDC2331D15A4A20084EE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kolkoKrzyzyk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42EDC2341D15A4A20084EE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kolkoKrzyzyk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42EDC2361D15A4A20084EE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kolkoKrzyzykTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzykTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolkoKrzyzyk.app/kolkoKrzyzyk";
+			};
+			name = Debug;
+		};
+		42EDC2371D15A4A20084EE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kolkoKrzyzykTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzykTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolkoKrzyzyk.app/kolkoKrzyzyk";
+			};
+			name = Release;
+		};
+		42EDC2391D15A4A20084EE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kolkoKrzyzykUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzykUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kolkoKrzyzyk;
+			};
+			name = Debug;
+		};
+		42EDC23A1D15A4A20084EE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kolkoKrzyzykUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.kolkoKrzyzykUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kolkoKrzyzyk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EDC2051D15A4A10084EE75 /* Build configuration list for PBXProject "kolkoKrzyzyk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDC2301D15A4A20084EE75 /* Debug */,
+				42EDC2311D15A4A20084EE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EDC2321D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzyk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDC2331D15A4A20084EE75 /* Debug */,
+				42EDC2341D15A4A20084EE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EDC2351D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzykTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDC2361D15A4A20084EE75 /* Debug */,
+				42EDC2371D15A4A20084EE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EDC2381D15A4A20084EE75 /* Build configuration list for PBXNativeTarget "kolkoKrzyzykUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EDC2391D15A4A20084EE75 /* Debug */,
+				42EDC23A1D15A4A20084EE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EDC2021D15A4A10084EE75 /* Project object */;
+}
