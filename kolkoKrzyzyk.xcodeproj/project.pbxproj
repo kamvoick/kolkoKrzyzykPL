@@ -14,6 +14,7 @@
 		42EDC2181D15A4A10084EE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDC2161D15A4A10084EE75 /* LaunchScreen.storyboard */; };
 		42EDC2231D15A4A10084EE75 /* kolkoKrzyzykTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC2221D15A4A10084EE75 /* kolkoKrzyzykTests.swift */; };
 		42EDC22E1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC22D1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift */; };
+		42EDC23C1D15E34F0084EE75 /* Komix.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42EDC23B1D15E34F0084EE75 /* Komix.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		42EDC2291D15A4A10084EE75 /* kolkoKrzyzykUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kolkoKrzyzykUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EDC22D1D15A4A10084EE75 /* kolkoKrzyzykUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolkoKrzyzykUITests.swift; sourceTree = "<group>"; };
 		42EDC22F1D15A4A10084EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDC23B1D15E34F0084EE75 /* Komix.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Komix.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				42EDC20F1D15A4A10084EE75 /* ViewController.swift */,
 				42EDC2111D15A4A10084EE75 /* Main.storyboard */,
 				42EDC2141D15A4A10084EE75 /* Assets.xcassets */,
+				42EDC23B1D15E34F0084EE75 /* Komix.ttf */,
 				42EDC2161D15A4A10084EE75 /* LaunchScreen.storyboard */,
 				42EDC2191D15A4A10084EE75 /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EDC2181D15A4A10084EE75 /* LaunchScreen.storyboard in Resources */,
+				42EDC23C1D15E34F0084EE75 /* Komix.ttf in Resources */,
 				42EDC2151D15A4A10084EE75 /* Assets.xcassets in Resources */,
 				42EDC2131D15A4A10084EE75 /* Main.storyboard in Resources */,
 			);
